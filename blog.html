@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula bootstrap </title>
+    <!--link bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex">
+            <figure href="index.html">
+                <img src="IMG/bable-logo.png" alt="logo" class="logo-img">
+            </figure>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class=" nav-item p-3">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class=" nav-item p-3">
+                        <a class="nav-link " href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a class="nav-link" href="babel-kids.html">Babel KIDS</a>
+                    </li>
+                    <li class="nav-item p-3 me-4">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+                <button class="btn btn-color text-center" type="button"><a class="link-style-none"
+                        href="index.html#form-aula">Agendar uma aula grátis</a><i
+                        class="bi bi-arrow-right-short"></i></button>
+            </div>
+    </nav>
+
+    <!-- header-->
+    <header class="container p-3 my-4">
+        <h2 class="m-3 h2-style font-size-blog">
+            Principais Notícias
+        </h2>
+        <!--NOTICIAS-->
+        <div class="row">
+            <div class="col-lg-8">
+                <!--Notícia-1-->
+                <div class="bg-header-noticia-1 border-radius d-flex align-items-end p-3">
+                    <!--Conteúdo da notícia-1-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- icons notícia-1-->
+                            <div class="row my-2">
+                                <div class="col-md-2 bg-blog-noticia-1">
+                                    <i class="bi bi-newspaper"></i>
+                                    <p class="mt-3 p-1">Dicas</p>
+                                </div>
+                                <div class="col-md-3 bg-blog-noticia-2">
+                                    <figure class="w-25  m-2">
+                                        <img src="IMG/blog-autor-1.jpg" class="w-100 rounded-circle" alt="hugo">
+                                    </figure>
+                                    <p class="mt-3 p-1 ">Hugo Osborbe</p>
+                                </div>
+                                <div class="col-md-2 bg-blog-noticia-3">
+                                    <i class="bi bi-newspaper"></i>
+                                    <p class="mt-3 p-1">12/03</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- texto - noticia-1-->
+                        <div class="col-lg-12 text-white">
+                            <h3>
+                                5 Ferramentas Online para Melhorar seu Vocabulário
+                            </h3>
+                            <p>
+                                Descubra as melhores ferramentas
+                                online que você pode usar para expandir e enriquecer seu vocabulário de
+                                maneira eficiente e divertida...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="row">
+                    <!--Notícia-2-->
+                    <div class='col-lg-12 mb-3'>
+                        <div class="bg-header-noticia-2 border-radius d-flex align-items-end p-3">
+                            <!--Conteúdo da notícia-2-->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- icons notícia-->
+                                    <div class="row my-2">
+                                        <div class="col-md-5 bg-blog-noticia-1">
+                                            <i class="bi bi-newspaper"></i>
+                                            <p class="mt-3 p-1">Educação</p>
+                                        </div>
+                                        <div class="col-md-4 bg-blog-noticia-2">
+                                            <figure class="w-25  m-2">
+                                                <img src="IMG/blog-autor-2.jpg" class="w-100 rounded-circle" alt="manu">
+                                            </figure>
+                                            <p class="mt-3 p-1 ">Manu Guerra</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- texto - noticia-->
+                                <div class="col-lg-12 text-white">
+                                    <h5>
+                                        Os Benefícios de Estudar em Ambientes Virtuais
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-lg-12'>
+                        <!--Notícia-3-->
+                        <div class="bg-header-noticia-3 border-radius d-flex align-items-end p-3">
+                            <!--Conteúdo-notícia-3-->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- icons notícia-->
+                                    <div class="row my-2">
+                                        <div class="col-md-5 bg-blog-noticia-1">
+                                            <i class="bi bi-newspaper"></i>
+                                            <p class="mt-3 p-1">Carreira</p>
+                                        </div>
+                                        <div class="col-md-4 bg-blog-noticia-2">
+                                            <figure class="w-25  m-2">
+                                                <img src="IMG/blog-autor-3.jpg" class="w-100 rounded-circle"
+                                                    alt="guerra">
+                                            </figure>
+                                            <p class="mt-3 p-1 ">Marie Guerra</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- texto - noticia-->
+                                <div class="col-lg-12 text-white">
+                                    <h5>
+                                        Como a Proficiência em Línguas Pode Impulsionar sua Carreira
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--main-->
+    <main>
+        <section class="container p-3 my-4">
+            <h2 class="blog-title-h2 m-3"> Publicaões recentes </h2>
+            <div>
+                <div class="row">
+                    <!-- barra de busca - tipos-->
+                    <div class="col-lg-3">
+                        <div class="container mt-5">
+                            <div class="filter-container p-2 my-3 mt-2">
+                                <div class="input-group input-warper mb-1">
+                                    <input type="text" class="form-control" placeholder="Pesquisar"
+                                        aria-label="Pesquisar">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">
+                                            <i class="bi bi-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter-container p-3">
+                                <div class="category-filter">
+                                    <h6><i class="fas fa-filter"></i> Filtrar por categoria</h6>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">Todos as publicações</a></li>
+                                        <li><a href="#">Cultura</a></li>
+                                        <li><a href="#">Dicas</a></li>
+                                        <li><a href="#">Viagens</a></li>
+                                        <li><a href="#">Educação</a></li>
+                                        <li><a href="#">Carreira</a></li>
+                                        <li><a href="#">Tecnologia</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Cards-->
+                    <div class="col-lg-9">
+                        <div class="row oi mt-5">
+                            <!-- Card 1 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-1.jpg" class="card-img-top" alt="Card Image 1">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted">Dicas</span>
+                                            <span class="text-muted">Hugo Osborne</span>
+                                        </div>
+                                        <h5 class="card-title text-primary">5 Ferramentas Online para Melhorar seu
+                                            Vocabulário
+                                        </h5>
+                                        <p class="card-text text-secondary-emphasis"> Descubra as melhores ferramentas
+                                            online que você pode usar para expandir e enriquecer seu vocabulário de
+                                            maneira eficiente e divertida...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-2.jpg" class="card-img-top" alt="Card Image 2">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted">Educação</span>
+                                            <span class="text-muted"> Manuela Guerra
+                                            </span>
+                                        </div>
+                                        <h5 class="card-title text-primary">Os Benefícios de Estudar em Ambientes
+                                            Virtuais</h5>
+                                        <p class="card-text text-secondary-emphasis"> Entenda como os ambientes virtuais
+                                            de aprendizagem podem oferecer flexibilidade e recursos adicionais para o
+                                            seu desenvolvimento acadêmico...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-3.jpg" class="card-img-top" alt="Card Image 3">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted">Carreira</span>
+                                            <span class="text-muted"> Marie Guerra</span>
+                                        </div>
+                                        <h5 class="card-title text-primary">Como a Proficiência em Línguas Pode
+                                            Impulsionar sua Carreira</h5>
+                                        <p class="card-text text-secondary-emphasis">Saiba como dominar vários idiomas
+                                            pode abrir portas e criar novas oportunidades no mercado de trabalho
+                                            globalizado...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-4.jpg" class="card-img-top" alt="Card Image 4">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted"> Tecnologia</span>
+                                            <span class="text-muted"> Lucas Fernandes</span>
+                                        </div>
+                                        <h5 class="card-title text-primary">O Impacto da IA na Educação: O Futuro do
+                                            Aprendizado</h5>
+                                        <p class="card-text text-secondary-emphasis">Explore como a inteligência
+                                            artificial está transformando a forma como aprendemos e ensinamos, trazendo
+                                            novas possibilidades e desafios...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-5.jpg" class="card-img-top" alt="Card Image 5">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted">Cultura</span>
+                                            <span class="text-muted">Mariana Guerra</span>
+                                        </div>
+                                        <h5 class="card-title text-primary">A Influência da Cultura Pop no Aprendizado
+                                            de Línguas</h5>
+                                        <p class="card-text text-secondary-emphasis"> Descubra como filmes, séries e
+                                            músicas podem ser aliados poderosos no processo de aprendizagem de um novo
+                                            idioma...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100">
+                                    <img src="IMG/blog-noticia-6.jpg" class="card-img-top" alt="Card Image 6">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-1">
+                                            <span class="text-muted">Viagens
+                                            </span>
+                                            <span class="text-muted">Mariana Eduarda</span>
+                                        </div>
+                                        <h5 class="card-title text-primary">Os Melhores Destinos para Aprender Francês
+                                        </h5>
+                                        <p class="card-text text-secondary-emphasis">Planeje sua próxima viagem para um
+                                            dos melhores destinos onde você pode praticar e melhorar seu francês
+                                            enquanto explora novas culturas...
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+
+    <!--foteer-->
+    <footer class="footer bg-body-tertiary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img src="IMG/bable-logo.png" alt="Logo">
+                    <div class="mt-3">
+                      <a href="#"><i class="bi bi-facebook me-3"></i></a>
+                      <a href="#"><i class="bi bi-instagram me-3"></i></a>
+                      <a href="#"><i class="bi bi-youtube me-3"></i></a>
+                      <a href="#"><i class="bi bi-x me-3"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold">Cursos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Inglês</a></li>
+                        <li><a href="#">Espanhol</a></li>
+                        <li><a href="#">Francês</a></li>
+                        <li><a href="#">Alemão</a></li>
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">Mandarim</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold">Institucional</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="babel-kids.html">Babel-Kids</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Fale Conosco <i class="bi bi-arrow-up-right-circle"></i></a></li>
+  
+                    </ul>
+                </div>
+            </div>
+        </div>
+  
+    </footer>
+  
+   
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Deixe sua mensagem!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <!--link bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js-links-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
